@@ -73,6 +73,8 @@
   .footer__block {
     margin-bottom: 2rem;
 }
-
+.footer__item {
+  margin-bottom: 1.5rem;
+}
   
 }
