@@ -173,6 +173,9 @@
     .policy__btn:hover {
         letter-spacing: .3rem;
     }
+    .hero .title span {
+        max-width: 50rem;
+     }
 
 
     .contacts__wrapper .container {
