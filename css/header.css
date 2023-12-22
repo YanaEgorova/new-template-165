@@ -114,7 +114,8 @@ body.open-menu {
 }
 .cart__span-box {
     font-size: 2.2rem;
-    display: none;
+    display: flex;
+    margin-left: 1rem;
     align-items: center;
     justify-content: center;
     max-width: 20rem;
@@ -129,7 +130,12 @@ body.open-menu {
     display: flex;
     align-items: center;
 }
-
+  .cart__span-box svg {
+        fill: var(--sub-text-color);
+    }
+    .cart__span {
+        color: var(--sub-text-color);
+    }
 .header__btn.active span::before, .header__btn.active span::after {
     background-color: var(--main-text-color);
 }
@@ -144,10 +150,5 @@ body.open-menu {
        margin: 0 auto;
     }
 
-    .cart__span-box svg {
-        fill: var(--sub-text-color);
-    }
-    .cart__span {
-        color: var(--sub-text-color);
-    }
+  
 }
